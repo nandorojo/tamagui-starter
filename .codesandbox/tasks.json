@@ -1,0 +1,68 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "native": {
+      "name": "native",
+      "command": "yarn native",
+      "runAtStart": false
+    },
+    "watch": {
+      "name": "watch",
+      "command": "yarn watch",
+      "runAtStart": false
+    },
+    "vercel:install": {
+      "name": "vercel:install",
+      "command": "yarn vercel:install",
+      "runAtStart": false
+    },
+    "web": {
+      "name": "web",
+      "command": "yarn web",
+      "runAtStart": true
+    },
+    "web:extract": {
+      "name": "web:extract",
+      "command": "yarn web:extract",
+      "runAtStart": false
+    },
+    "web:prod": {
+      "name": "web:prod",
+      "command": "yarn web:prod",
+      "runAtStart": false
+    },
+    "web:prod:serve": {
+      "name": "web:prod:serve",
+      "command": "yarn web:prod:serve",
+      "runAtStart": false
+    },
+    "fix": {
+      "name": "fix",
+      "command": "yarn fix",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "yarn postinstall",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "upgrade:tamagui": {
+      "name": "upgrade:tamagui",
+      "command": "yarn upgrade:tamagui",
+      "runAtStart": false
+    }
+  }
+}

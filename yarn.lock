@@ -2654,13 +2654,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@my/ui@workspace:packages/ui"
   dependencies:
-    "@tamagui/animations-react-native": ^1.7.0
-    "@tamagui/build": ^1.7.0
-    "@tamagui/font-inter": ^1.7.0
-    "@tamagui/react-native-media-driver": ^1.7.0
-    "@tamagui/shorthands": ^1.7.0
-    "@tamagui/themes": ^1.7.0
-    tamagui: ^1.7.0
+    "@tamagui/animations-react-native": ^1.7.5
+    "@tamagui/build": ^1.7.5
+    "@tamagui/font-inter": ^1.7.5
+    "@tamagui/react-native-media-driver": ^1.7.5
+    "@tamagui/shorthands": ^1.7.5
+    "@tamagui/themes": ^1.7.5
+    tamagui: ^1.7.5
   languageName: unknown
   linkType: soft
 
@@ -3324,7 +3324,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/animations-react-native@npm:1.7.5, @tamagui/animations-react-native@npm:^1.7.0":
+"@tamagui/animations-react-native@npm:1.7.5, @tamagui/animations-react-native@npm:^1.7.0, @tamagui/animations-react-native@npm:^1.7.5":
   version: 1.7.5
   resolution: "@tamagui/animations-react-native@npm:1.7.5"
   dependencies:
@@ -3395,7 +3395,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/build@npm:^1.7.0":
+"@tamagui/build@npm:^1.7.5":
   version: 1.7.5
   resolution: "@tamagui/build@npm:1.7.5"
   dependencies:
@@ -3684,7 +3684,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/font-inter@npm:^1.7.0":
+"@tamagui/font-inter@npm:^1.7.0, @tamagui/font-inter@npm:^1.7.5":
   version: 1.7.5
   resolution: "@tamagui/font-inter@npm:1.7.5"
   dependencies:
@@ -4042,7 +4042,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/react-native-media-driver@npm:1.7.5, @tamagui/react-native-media-driver@npm:^1.7.0":
+"@tamagui/react-native-media-driver@npm:1.7.5, @tamagui/react-native-media-driver@npm:^1.7.5":
   version: 1.7.5
   resolution: "@tamagui/react-native-media-driver@npm:1.7.5"
   dependencies:
@@ -4219,7 +4219,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/shorthands@npm:^1.7.0":
+"@tamagui/shorthands@npm:^1.7.0, @tamagui/shorthands@npm:^1.7.5":
   version: 1.7.5
   resolution: "@tamagui/shorthands@npm:1.7.5"
   checksum: 96bee174a30282ef6f67c20ed5916f126165a4fc4580d503699a2c63b26ecd3f66cd7da296a820c25eaacb52ef886afd4a15effa73979633468b8b33d9534f3e
@@ -4360,7 +4360,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui/themes@npm:^1.7.0":
+"@tamagui/themes@npm:^1.7.0, @tamagui/themes@npm:^1.7.5":
   version: 1.7.5
   resolution: "@tamagui/themes@npm:1.7.5"
   dependencies:
@@ -14750,7 +14750,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tamagui@npm:^1.7.0":
+"tamagui@npm:^1.7.5":
   version: 1.7.5
   resolution: "tamagui@npm:1.7.5"
   dependencies:
